@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.neon-button {
+  @apply text-white px-4 py-2 rounded-full font-bold text-lg shadow-lg;
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff, 0 0 30px #00f7ff;
+  transition: all 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff, 0 0 60px #00f7ff;
+  transform: scale(1.05);
+}
